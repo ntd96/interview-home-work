@@ -1,0 +1,33 @@
+a {
+    text-decoration: none ;
+}
+
+/* Login */
+.login_ {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15%;
+    border: 1px solid #9999;
+    border-radius: 18px;
+}
+
+.login_stack {
+    width: 100%;
+    padding: 6%;
+    background: linear-gradient(to bottom, #d0cfe7, #ffffff, #ffffff, #f7f6ff);
+    border-radius: 16px;
+}
+.login_button {
+    background: #120e0e !important;
+    font-family: system-ui !important;
+    font-size: 1rem !important;
+}
+
+@media (max-Width: 800px) {
+    .login_ {
+        width: 100%;
+    }
+}

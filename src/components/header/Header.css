@@ -1,0 +1,28 @@
+
+/* Thanh App */
+.appbar {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Header */
+.header_ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Logo */
+.header_logo {
+    width: 100px;
+}
+/* Text Logo */
+.header_textlogo {
+    font-family: cursive !important;
+    font-style: italic;
+    font-size: 3rem !important;
+}
+
+.header_name{
+    display: flex;
+    align-items: center;
+}
